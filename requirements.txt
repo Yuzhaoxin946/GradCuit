@@ -1,0 +1,13 @@
+torch>=2.10
+transformers>=4.52.4
+datasets>=3.2.0
+numpy>=1.26.4
+openai>=1.57.2
+accelerate>=1.2.0
+vllm>=0.8.5
+math-verify==0.9.0
+latex2sympy2==1.9.0
+antlr4-python3-runtime==4.11.1
+regex>=2024.11.6
+sympy>=1.13.1
+word2number>=1.1
