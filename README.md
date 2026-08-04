@@ -15,7 +15,7 @@ For each problem, GradCuit evaluates the generated answer with a single verifier
 policy-gradient-style update to the latent tokens. The language model parameters remain frozen;
 only the instance-specific latents are updated before regenerating the answer.
 
-This implementation supports GSM8K, MATH-500, and GPQA Diamond.
+This implementation supports GSM8K, MATH-500, and GPQA-Diamond.
 Answer extraction and final-answer judging use the same evaluation pipeline as the
 original single-verifier experiments.
 
