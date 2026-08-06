@@ -65,7 +65,8 @@ python src/main.py --help
 `--solver_prompt_idx` accepts `0` for boxed answers and `1` for JSON answers.
 `--optimize_layer_idx 0` optimizes prefix embeddings; a positive value optimizes the prefix hidden
 state at the input to that decoder block. `--optimizer` accepts `adam`, `sgd`, or `muon`.
-Set `--grad_clip 0` to disable clipping and `--num_data -1` to process all remaining examples.
+`--max_num_steps` must be positive; the paper uses `10`. Set `--grad_clip 0` to disable clipping and
+`--num_data -1` to process all remaining examples.
 
 Use `--resume` with the same experiment arguments to continue the newest matching output directory.
 The API key, when needed, is read from `VLLM_API_KEY`.

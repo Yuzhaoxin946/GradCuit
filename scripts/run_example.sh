@@ -1,6 +1,6 @@
 set -euo pipefail
 
-export CUDA_VISIBLE_DEVICES="0"
+export CUDA_VISIBLE_DEVICES="3"
 
 python src/main.py \
     --dataset "openai/gsm8k" \
@@ -11,7 +11,7 @@ python src/main.py \
     --seed "42" \
     --lr "0.001" \
     --optimizer "adam" \
-    --max_num_steps "-1" \
+    --max_num_steps "10" \
     --max_new_tokens "2048" \
     --optimize_layer_idx "14" \
     --grad_clip "0" \

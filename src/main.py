@@ -34,7 +34,12 @@ def build_arg_parser() -> argparse.ArgumentParser:
         required=True,
         choices=["adam", "sgd", "muon"],
     )
-    parser.add_argument("--max_num_steps", required=True, type=int)
+    parser.add_argument(
+        "--max_num_steps",
+        required=True,
+        type=int,
+        help="Maximum number of latent optimization updates; must be positive.",
+    )
     parser.add_argument("--max_new_tokens", required=True, type=int)
     parser.add_argument("--optimize_layer_idx", required=True, type=int)
     parser.add_argument(
