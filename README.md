@@ -80,11 +80,3 @@ Each run writes:
 - `logistics.pt`: resume state and aggregate counters.
 
 Generated outputs are ignored by Git.
-
-## Tests
-
-```bash
-pip install -r requirements-dev.txt
-pytest -q test
-python -m compileall src
-```
