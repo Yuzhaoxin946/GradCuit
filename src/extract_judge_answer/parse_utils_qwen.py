@@ -9,7 +9,7 @@ import sympy
 from typing import TypeVar, Iterable, List, Union, Any, Dict
 
 try:
-    from latex2sympy2 import latex2sympy
+    from latex2sympy2_extended import latex2sympy
 except ModuleNotFoundError:
     latex2sympy = None
 
@@ -30,7 +30,7 @@ def _require_word2number_for_math_extraction() -> None:
 def _require_latex2sympy_for_theoremqa_extraction() -> None:
     if latex2sympy is None:
         raise ImportError(
-            "latex2sympy2 is required for theorem-style answer extraction. "
+            "latex2sympy2_extended is required for theorem-style answer extraction. "
             "Install the evaluation dependencies before running this extraction path."
         )
 

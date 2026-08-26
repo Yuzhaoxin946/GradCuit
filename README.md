@@ -27,8 +27,8 @@ Python 3.10 or newer is required. Install a CUDA-compatible PyTorch build for yo
 pip install -r requirements.txt
 ```
 
-MATH-500 evaluation uses the original `latex2sympy2==1.9.0` parser with
-`antlr4-python3-runtime==4.11.1`, matching the original GradCuit environment.
+MATH-500 evaluation uses `latex2sympy2_extended==1.11.0` with
+`antlr4-python3-runtime==4.11.1`, matching the parser used by `math-verify==0.9.0`.
 
 The verifier uses a vLLM OpenAI-compatible server. The solver and verifier normally run in separate
 processes and may use different GPUs.
@@ -80,3 +80,11 @@ Each run writes:
 - `logistics.pt`: resume state and aggregate counters.
 
 Generated outputs are ignored by Git.
+
+## Validation
+
+```bash
+python -m compileall src
+python src/main.py --help
+vllm --help
+```
