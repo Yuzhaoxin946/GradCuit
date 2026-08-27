@@ -4,8 +4,6 @@ Zhaoxin Yu<sup>*</sup>, Qi Shen<sup>*</sup>, Hengli Li<sup>*†</sup>, Zhaowei Z
 
 <sup>*</sup> Equal Contributions. <sup>†</sup> Project lead. <sup>✉</sup> Equal Supervision.
 
-**Contact:** [Zhaoxin Yu](mailto:yuzhaoxin2024@ia.ac.cn), [Qi Shen](mailto:shenqi@bupt.edu.cn), [Hengli Li](mailto:lihengli@stu.pku.edu.cn), [Chi Zhang](mailto:chizhang.cz@pku.edu.cn), and [Zilong Zheng](mailto:zlzheng@bigai.ai) (corresponding authors: Hengli Li, Chi Zhang, and Zilong Zheng)
-
 [![Project Page](https://img.shields.io/badge/Project-Page-BA8E9F?style=for-the-badge)](https://yuzhaoxin946.github.io/GradCuit/)
 [![Paper](https://img.shields.io/badge/arXiv-2608.02585-B31B1B?style=for-the-badge)](https://arxiv.org/abs/2608.02585)
 
@@ -106,3 +104,5 @@ vllm --help
       url={https://arxiv.org/abs/2608.02585},
 }
 ```
+
+**Contact:** [Zhaoxin Yu](mailto:yuzhaoxin2024@ia.ac.cn), [Qi Shen](mailto:shenqi@bupt.edu.cn), [Hengli Li](mailto:lihengli@stu.pku.edu.cn), [Chi Zhang](mailto:chizhang.cz@pku.edu.cn), and [Zilong Zheng](mailto:zlzheng@bigai.ai) (corresponding authors: Hengli Li, Chi Zhang, and Zilong Zheng)
