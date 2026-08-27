@@ -9,8 +9,6 @@ Zhaoxin Yu<sup>*</sup>, Qi Shen<sup>*</sup>, Hengli Li<sup>*†</sup>, Zhaowei Z
 [![Project Page](https://img.shields.io/badge/Project-Page-BA8E9F?style=for-the-badge)](https://yuzhaoxin946.github.io/GradCuit/)
 [![Paper](https://img.shields.io/badge/arXiv-2608.02585-B31B1B?style=for-the-badge)](https://arxiv.org/abs/2608.02585)
 
-**Circuit-like Gradient Flow for Test-Time Instance-Level Latent Reasoning**
-
 GradCuit (*gradient through circuit*) is a test-time latent reasoning method for frozen
 autoregressive transformers. It places a small set of continuous latent tokens directly in the
 transformer's input embedding sequence, alongside the embedded prompt. Generated tokens attend to
