@@ -1,8 +1,8 @@
 # GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning
 
-Zhaoxin Yu<sup>*</sup>, Qi Shen<sup>*</sup>, Hengli Li<sup>*†</sup>, Zhaowei Zhang, Song-Chun Zhu, Chi Zhang<sup>✉</sup>, and Zilong Zheng<sup>✉</sup>
+Zhaoxin Yu<sup>&#42;</sup>, Qi Shen<sup>&#42;</sup>, Hengli Li<sup>&#42;†</sup>, Zhaowei Zhang, Song-Chun Zhu, Chi Zhang<sup>✉</sup>, and Zilong Zheng<sup>✉</sup>
 
-<sup>*</sup> Equal Contributions. <sup>†</sup> Project lead. <sup>✉</sup> Equal Supervision.
+<sup>&#42;</sup> Equal Contributions. <sup>†</sup> Project lead. <sup>✉</sup> Equal Supervision.
 
 [![Project Page](https://img.shields.io/badge/Project-Page-BA8E9F?style=for-the-badge)](https://yuzhaoxin946.github.io/GradCuit/)
 [![Paper](https://img.shields.io/badge/arXiv-2608.02585-B31B1B?style=for-the-badge)](https://arxiv.org/abs/2608.02585)
